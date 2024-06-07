@@ -709,7 +709,7 @@ if ! [ "$myTPOT_DEPLOYMENT_TYPE" == "iso" ];
   then
     fuBANNER "Cloning T-Pot"
     ### DEV
-    git clone https://github.com/CCU7LSP/tpotce /opt/tpot
+    git clone https://github.com/CCU7LSP/tpotce-legacy /opt/tpot
 fi
 
 # Let's create the T-Pot user
